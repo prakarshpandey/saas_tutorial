@@ -18,10 +18,10 @@
 @import 'bootstrap';
 
 h1, h2, h3 {
-font-family: 'Open Sans', 'sans-serif'
+font-family: 'Open Sans', 'sans-serif';
 }
 
-body, .navbar{
+.navbar, .homeCallout{
     //Gradient provided by @_ighosh at UIgradients.com
     background: #C33764; /* fallback for old browsers */
     background: -webkit-gradient(linear, 0 0, 100% 0, from(#C33764), to(#1D2671));
@@ -29,8 +29,16 @@ body, .navbar{
     background: -moz-linear-gradient(to left, #C33764, #1D2671);
     background: -o-linear-gradient(to left, #C33764, #1D2671);
     background: linear-gradient(to left, #C33764, #1D2671); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 .navbar{
     border: none;
+}
+
+.homeCallout{
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
 }
